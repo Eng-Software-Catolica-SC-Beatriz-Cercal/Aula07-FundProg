@@ -2,28 +2,10 @@
 #include <stdlib.h>
 
 int main(void){
-	// variáveis
-	int n1, n2;
-	
-	// entrada
-	printf("Digite 1 numero: ");
-	scanf("%i",&n1);
-	fflush(stdin);
-	printf("Digite 2 numero: ");
-	scanf("%i",&n2);
-	fflush(stdin);
-	
-	// processamento e saída
-	if(n1<n2){
-		for(int i=n1+1;i<=n2-1;i++){
-			printf("%i, ",i);
-		}
-	}else{
-		for(int i=n1-1;i>=n2+1;i--){
-		printf("%i, ",i);
-	}
-	}
-	
-	
-	return 0;
+    int n;
+    for (n=1; n<=100; n=n+1) {
+        printf("%i. Beatriz/n", n);
+    }
+
+    return 0;
 }
