@@ -6,13 +6,13 @@ int main(void){
 	int n;
 	/*
 	for(n=1;n<=10;n=n+1){
-		printf("%i. Manfred\n",n);
+		printf("%i. Beatriz\n",n);
 	}
 	*/
 	n=1;
     //processamento e saída
 	while(n<=10){
-		printf("%i. Manfred\n",n);
+		printf("%i. Beatriz\n",n);
 		n++;
 	}
 	
