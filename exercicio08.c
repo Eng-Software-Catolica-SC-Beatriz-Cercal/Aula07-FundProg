@@ -9,11 +9,13 @@ int main(void){
     float crescB = 0.015;
     int anos = 0;
 
+    //processamento de dados
     while (populacaoB > populacaoA) {
         populacaoA = populacaoA * (1 + crescA);
         populacaoB = populacaoB * (1 + crescB);
         anos++;
     }
+        //saida de dados
         printf("%d Anos necessarios. ", anos);
 
 return 0;
